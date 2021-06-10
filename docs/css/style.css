@@ -106,7 +106,12 @@ a.btn2{
 	display:block;
 	margin-top: 10px;
 }
-.btn,.btn-ph:hover{
+.btn:hover{
+	background-color: white;
+	color:black;
+}
+
+.btn-ph:hover{
 	background-color: white;
 	color:black;
 }
