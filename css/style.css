@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+.img {
+	height: 100vh; 
+    background-image: url("../images/worktable.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: -.5em;
+
+}
+
+.layer {
+	display: flex;
+	flex-direction: column;
+  	justify-content: space-between;
+    background-color: rgba(0,0,0,.2);
+    height: 100vh;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 45px;
+}
+
+ 
+.headfont{ 
+	padding: 10px;
+	background: rgba(0,0,0,.2);
+	color: white;
+	font-size: 3vh;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a.btn2{
+	padding: 20px;
+	cursor: pointer;
+}
+
+.btn2:hover{
+	background-color: black;
+	color:blue;
+}
+
+
+.img-header{
+	margin-top: -3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*align-items: center;*/
+	text-align: center;
+}
+
+.img-title {
+ 	font-size: 8vh;
+ 	color: white;
+ 	font-weight: 900;
+ 	font-family: 'Montserrat', sans-serif;
+}
+
+.para{
+  	padding-right: 100px;
+  	padding-left: 100px;
+  	color: white;
+  	margin-top: -1em;
+  	font-size: 3vh;
+  	font-family: 'Montserrat', sans-serif;
+  	font-weight: 400;
+}
+
+.para1{
+  	font-family: 'Montserrat', sans-serif;
+  	font-weight: 400;
+}
+
+.btn{
+	background: none;
+	border: 3px solid white;
+	padding: 10px;
+	color:white;
+	cursor: pointer;
+	font-size:20px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+	background-color: white;
+	color:black;
+}
+.btn1{
+	margin-top: 30px;
+	background-color: white;
+	padding: 10px;
+	align-items: center;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.btn1:hover{
+	background-color: black;
+	color:white;
+}
+.img-footer {
+  display: flex;
+}
+
+.ftr{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    left:0;
+	margin-top: 200px;
+	background: grey;
+	float: left;
+	color:white;
+	padding: 20px 0px 20px 20px;
+	width:100%;	
+	margin-left: -.5em
+}
+
+div > p{
+	border: 1px solid black;
+	width: 60%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding:10px;
+	text-align: center;
+  }
+
+.logo{
+	position: relative;
+	left:3%;
+	/*top: 100;*/
+}
+.title1{
+	padding-top: 70px;
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+	font-weight: bold;
+	position: relative;
+	top: 25px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.copy{
+	position: relative;
+	/*left:80%;*/
+	display: flex;
+	justify-content: flex-end;
+	bottom:0;
+	font-size: 25px;
+	padding-right: 20px;
+	/*top: 100;*/
+	}
+
+@media (min-width: 768px){
+	.col-lg-4{
+		width: 33%;
+ 		float: left;
+	 	text-align: center;
+	}
+	.menu-dot{
+	display:none;
+	}
+	.ftr{
+	flex-direction: row;
+	}
+}
+
+/*to display menu icon for mobile device*/
+@media screen and (max-width: 767px) {
+	.col-lg-12{
+		width: 100%;
+ 		text-align: center;
+	}
+
+	.menu-dot, .menu-dot:after, .menu-dot:before{
+
+		position: absolute;
+		right: 20px;
+		width: 10px;
+ 		height: 10px;
+  		border-radius: 10px;
+  		background-color: white;
+  		float:right;
+	}
+	.menu-dot:before {
+		content: "";
+		right: 15px;	
+	}
+	.menu-dot:after {
+		content: "";
+		left: 15px;
+	}
+	.nav-menu{
+		display:none;
+	}
+	.ftr{
+	flex-direction: column;
+	}
+	.copy{
+		padding-right: 0px;
+	}
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+.fa-instagram {
+	padding-right: 15px;
+  color: pink;
+}
+.fa-twitter, .fa-linkedin {
+  color: white;
+  padding: 15px;
+}
