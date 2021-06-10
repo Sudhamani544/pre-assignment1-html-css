@@ -96,7 +96,7 @@ a.btn2{
 .btn-ph{
 	background: none;
 	border: 2px solid white;
-	padding: 5px;
+	padding: 10px;
 	color:white;
 	cursor: pointer;
 	width: 40%;
@@ -106,7 +106,7 @@ a.btn2{
 	display:block;
 	margin-top: 10px;
 }
-.btn:hover{
+.btn,.btn-ph:hover{
 	background-color: white;
 	color:black;
 }
