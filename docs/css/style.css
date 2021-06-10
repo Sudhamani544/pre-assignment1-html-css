@@ -86,6 +86,7 @@ a.btn2{
 	border: 3px solid white;
 	padding: 10px;
 	color:white;
+	width:18%;
 	cursor: pointer;
 	margin-top: 20px;
 	font-weight: bold;
@@ -98,7 +99,7 @@ a.btn2{
 	padding: 5px;
 	color:white;
 	cursor: pointer;
-	width: 35%;
+	width: 40%;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	margin:auto;
@@ -238,7 +239,7 @@ div > p{
  	.para{
  		padding-right: 50px;
  		padding-left: 50px;
- 		font-size: 2.5vh;
+ 		font-size: 2vh;
  	}
 }
 
