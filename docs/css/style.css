@@ -87,7 +87,6 @@ a.btn2{
 	padding: 10px;
 	color:white;
 	cursor: pointer;
-	font-size:20px;
 	margin-top: 20px;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
@@ -96,11 +95,10 @@ a.btn2{
 .btn-ph{
 	background: none;
 	border: 2px solid white;
-	padding: 10px;
+	padding: 5px;
 	color:white;
 	cursor: pointer;
 	width: 35%;
-	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	margin:auto;
@@ -210,7 +208,7 @@ div > p{
 	.menu-dot, .menu-dot:after, .menu-dot:before{
 
 		position: absolute;
-		right: 20px;
+		right: 30px;
 		width: 10px;
  		height: 10px;
   		border-radius: 10px;
@@ -235,7 +233,7 @@ div > p{
 		padding-right: 0px;
 	}
 	.img-title {
- 		font-size: 5vh;
+ 		font-size: 6vh;
  	}
  	.para{
  		padding-right: 50px;
